@@ -1,5 +1,5 @@
 export type RootStackParamList = {
-  AssistantsList: undefined;
-  Chat: { initialMessage: string };
-  Explore: undefined;
+	AssistantsList: undefined;
+	Chat: { chatId: string };
+	Explore: undefined;
 };
